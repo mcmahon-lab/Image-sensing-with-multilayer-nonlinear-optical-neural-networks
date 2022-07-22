@@ -2,7 +2,7 @@
 
 This repository contains example code for the work done in Image sensing with multilayer, nonlinear optical neural networks. We constructed a multi-layer optical neural network (ONN) with two linear layers and an element-wise nonlinear layer in-between. The linear layers were each implemented with a fully optical matrix-vector multiplier, and the optical-to-optical nonlinear activations were implemented with an image intensifier.
 
-The code contains example scripts for data collection through the free space multilayer optical neural network, and code that describes the training of the optical neural network enocders and digital neural network decoders.
+There are example scripts for data collection through the free space multilayer optical neural network, and code that describes the training of the optical neural network enocders and digital neural network decoders.
 
 # How to cite this code
 
