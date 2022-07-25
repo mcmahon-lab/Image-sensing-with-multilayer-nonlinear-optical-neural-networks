@@ -5,6 +5,7 @@ This repository contains the code used for generating and analyzing the data in 
 A quick guide on the contents of the repository:
 * Folder 'Data_Collection_Example' and 'Data_Extraction_Example' contain example scripts for instrument control and data collection through the multilayer optical neural network. 
 * Other folders are organized according to the figures of the main text of the paper, each containg the data and the code required to reproduce the plots shown in the main text and associated supplementary figures. Note that some customized dataset used in this study can only be downloaded from Zenodo: https://doi.org/10.5281/zenodo.6888985, due to the size limit of files that are uploadable to GitHub. 
+* Each folder contains a README.txt file that explains the role of each file in the folder in more detail.
 * For an exmaple of training an optical neural network enocder with a digital backend for classification, one can refer to 'Figure_2bcd/QuickDraw_train_onn_encoder.ipynb' as an introduction and 'Figure_4/Full_EBI_Cell_PLOTS.ipynb' for examples with more complex neural-network models.
 
 # How to cite this code
