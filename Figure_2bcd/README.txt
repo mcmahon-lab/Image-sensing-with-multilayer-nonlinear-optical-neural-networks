@@ -42,3 +42,12 @@ Associated trained models:
 -Direct_downsampling.pt: The digital linear classifier trained for 4D vectors derived from direct downsampling of the original images in Quickdraw_GT_images_April_7.npz, the test accuracy is plotted in Figure 2d.
 -Digital_linear.pt: The trained digital linear encoder plus a single-layer digital backend for classification. Its test accuracy is plotted in Figure 2d.
 -Digital_nonlinear.pt: The trained digital 2-layer nonlinear encoder plus a single-layer digital backend for classification. Its test accuracy is plotted in Figure 2d.
+
+------------------------------------------------------------------------------------------------------------------
+QuickDraw_train_onn_encoder.ipynb
+
+This jupyter notebook contains example code to train an ONN encoder using the optically fanned out images of the QuickDraw dataset.
+
+Dependencies:
+-Quickdraw_GT_images_April_7.npz: The optically fanned out images of QuickDraw images, as captured by a monitoring capture (see Supplementary Note 2 for explanation).
+-Nonlinear_coeffs.npz: the coefficients fitted for the nonlinear activation functions (similar to those shown in Supplementary Figure 8).
