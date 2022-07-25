@@ -1,12 +1,12 @@
 # Optical deep neural network image sensing with optical-to-optical nonlinear activations
 
-This repository contains example code for the work done in Image sensing with multilayer, nonlinear optical neural networks. We constructed a multi-layer optical neural network (ONN) with two linear layers and an element-wise nonlinear layer in-between. The linear layers were each implemented with a fully optical matrix-vector multiplier, and the optical-to-optical nonlinear activations were implemented with an image intensifier.
+This repository contains the code used for generating and analyzing the data in the study "Image sensing with multilayer, nonlinear optical neural networks". We constructed a physical setup of a multi-layer optical neural network (ONN) with two linear layers and an element-wise nonlinear layer in-between. The linear layers were each implemented with a fully optical matrix-vector multiplier, and the optical-to-optical nonlinear activations were implemented with an image intensifier.
 
-There are example scripts for data collection through the free space multilayer optical neural network, and code that describes the training of the optical neural network enocders and digital neural network decoders.
+Folder 'Data_Collection_Example' and 'Data_Extraction_Example' contain example scripts for instrument control and data collection through the multilayer optical neural network. Other folders are organized around the figures of the main text of the paper, each containg the data and the code required to reproduce the plots shown in the main text and associated supplementary figures. Note that some customized dataset used in this study can only be downloaded from Zenodo: https://doi.org/10.5281/zenodo.6888985, due to the file size limit of GitHub. For an exmaple of training of an optical neural network enocder with its digital backend for classification, one can refer to 'Figure_2bcd/QuickDraw_train_onn_encoder.ipynb' as an introduction and 'Figure_4/Full_EBI_Cell_PLOTS.ipynb' for examples with more complex neural-network models.
 
 # How to cite this code
 
-If you use any of our compiled datasets in your research, please consider citing the following paper:
+If you use any of our compiled datasets and code in your research, please consider citing the following paper:
 
 > Wang, T., Sohoni, M.M., Wright, L.G. et al. Image sensing with multilayer, nonlinear optical neural networks.
 
