@@ -1,4 +1,4 @@
-# Optical deep neural network image sensing with optical-to-optical nonlinear activations
+# Image sensing with multilayer, nonlinear optical neural networks
 
 This repository contains the code used for generating and analyzing the data in the study "[Image sensing with multilayer, nonlinear optical neural networks](https://arxiv.org/abs/2207.14293)". We constructed a physical setup of a multi-layer optical neural network (ONN) with two linear layers and an element-wise nonlinear layer in-between. The linear layers were each implemented with a fully optical matrix-vector multiplier, and the optical-to-optical nonlinear activations were implemented with an image intensifier. This repository contains the code used for training optical-neural-network encoders for the experimental setup and the code for analyzing the experimental data produced by the setup.
 
