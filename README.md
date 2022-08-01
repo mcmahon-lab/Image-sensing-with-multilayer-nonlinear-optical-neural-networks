@@ -1,6 +1,6 @@
 # Optical deep neural network image sensing with optical-to-optical nonlinear activations
 
-This repository contains the code used for generating and analyzing the data in the study "Image sensing with multilayer, nonlinear optical neural networks". We constructed a physical setup of a multi-layer optical neural network (ONN) with two linear layers and an element-wise nonlinear layer in-between. The linear layers were each implemented with a fully optical matrix-vector multiplier, and the optical-to-optical nonlinear activations were implemented with an image intensifier. This repository contains the code used for training optical-neural-network encoders for the experimental setup and the code for analyzing the experimental data produced by the setup.
+This repository contains the code used for generating and analyzing the data in the study "[Image sensing with multilayer, nonlinear optical neural networks](https://arxiv.org/abs/2207.14293)". We constructed a physical setup of a multi-layer optical neural network (ONN) with two linear layers and an element-wise nonlinear layer in-between. The linear layers were each implemented with a fully optical matrix-vector multiplier, and the optical-to-optical nonlinear activations were implemented with an image intensifier. This repository contains the code used for training optical-neural-network encoders for the experimental setup and the code for analyzing the experimental data produced by the setup.
 
 A quick guide on the contents of the repository:
 * Folder 'Data_Collection_Example' and 'Data_Extraction_Example' contain example scripts for instrument control and data collection through the multilayer optical neural network. 
@@ -12,7 +12,7 @@ A quick guide on the contents of the repository:
 
 If you use any of our compiled datasets and code in your research, please consider citing the following paper:
 
-> Wang, T., Sohoni, M.M., Wright, L.G. et al. Image sensing with multilayer, nonlinear optical neural networks.
+> T. Wang, M.M. Sohoni, L.G. Wright, M.M. Stein, S.-Y. Ma, T. Onodera, M. Anderson and P.L. McMahon. "Image sensing with multilayer, nonlinear optical neural networks." [arXiv:2207.14293](https://arxiv.org/abs/2207.14293) (2022)
 
 # License
 
