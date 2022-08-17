@@ -12,7 +12,7 @@ A quick guide on the contents of the repository:
 
 If you use any of our compiled datasets and code in your research, please consider citing the following paper:
 
-> T. Wang, M.M. Sohoni, L.G. Wright, M.M. Stein, S.-Y. Ma, T. Onodera, M. Anderson and P.L. McMahon. "Image sensing with multilayer, nonlinear optical neural networks." [arXiv:2207.14293](https://arxiv.org/abs/2207.14293) (2022)
+> T. Wang*, M.M. Sohoni*, L.G. Wright, M.M. Stein, S.-Y. Ma, T. Onodera, M. Anderson and P.L. McMahon. "Image sensing with multilayer, nonlinear optical neural networks." [arXiv:2207.14293](https://arxiv.org/abs/2207.14293) (2022)
 
 # License
 
